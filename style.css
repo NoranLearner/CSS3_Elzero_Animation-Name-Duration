@@ -1,0 +1,67 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: brown;
+    position: absolute;
+    /* animation: moving 3s 3 linear; */
+    animation-name: moving;
+    animation-duration: 4s;
+
+}
+
+@keyframes moving{
+
+    0%{
+        top: 10px;
+    }
+
+    10%{
+        top: 90px;
+    }
+
+    20%{
+        top: 60px;
+    }
+
+    30%{
+        top: 110px;
+    }
+
+    40%{
+        top: 80px;
+    }
+
+    50%{
+        top: 150px;
+    }
+
+    60%{
+        top: 120px;
+    }
+
+    70%{
+        top: 190px;
+    }
+
+    80%{
+        top: 160px;
+    }
+
+    90%{
+        top: 220px;
+    }
+
+    100%{
+        top: 230px ;
+    }
+
+}
